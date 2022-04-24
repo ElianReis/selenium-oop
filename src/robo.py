@@ -14,7 +14,6 @@ import glob
 class RoboPetro:
     def __init__(self, country):
         base = Estrutura()
-        directory = os.getcwd()+\\downloads
         self.remove("\\downloads\\*")
         self.chrome = "chromedriver.exe"
         self.path = os.getcwd() + "\\" + "downloads"
@@ -140,5 +139,5 @@ class RoboPetro:
             for f in files:
                 os.remove(f)
             logger.info("Pasta {} removida".format(folder))
-        else:
-            pass
+        except Exception as e:
+            logger.info(format(e))
