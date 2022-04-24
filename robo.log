@@ -1,0 +1,1041 @@
+2022-04-08 09:03:54 | ERROR: *** ERROR ***
+2022-04-08 09:03:54 | ERROR: Message: element click intercepted: Element <button class="table-structure-select btn-flex-grid" style="padding-left:2.25rem" type="submit" name="auspraegungen$$$6" value="..." title="auswählen: Ausprägungen zu Merkmal 'Jahr'">Zeit auswählen</button> is not clickable at point (759, 867). Other element would receive the click: <div class="cookiebanner" id="cookiebanner">...</div>
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00707621+1275425]
+	Ordinal0 [0x00705657+1267287]
+	Ordinal0 [0x0070333B+1258299]
+	Ordinal0 [0x0070207D+1253501]
+	Ordinal0 [0x006F7AB3+1211059]
+	Ordinal0 [0x0071B9EC+1358316]
+	Ordinal0 [0x006F7474+1209460]
+	Ordinal0 [0x0071BC04+1358852]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 24, in <module>
+    indicador.search(base.alemanhaurl, base.alemanha)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\src\robo.py", line 34, in search
+    self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, elements))).click()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 710, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="table-structure-select btn-flex-grid" style="padding-left:2.25rem" type="submit" name="auspraegungen$$$6" value="..." title="auswählen: Ausprägungen zu Merkmal 'Jahr'">Zeit auswählen</button> is not clickable at point (759, 867). Other element would receive the click: <div class="cookiebanner" id="cookiebanner">...</div>
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00707621+1275425]
+	Ordinal0 [0x00705657+1267287]
+	Ordinal0 [0x0070333B+1258299]
+	Ordinal0 [0x0070207D+1253501]
+	Ordinal0 [0x006F7AB3+1211059]
+	Ordinal0 [0x0071B9EC+1358316]
+	Ordinal0 [0x006F7474+1209460]
+	Ordinal0 [0x0071BC04+1358852]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-08 09:04:35 | ERROR: *** ERROR ***
+2022-04-08 09:04:35 | ERROR: Message: element click intercepted: Element <button class="table-structure-select btn-flex-grid" style="padding-left:2.25rem" type="submit" name="auspraegungen$$$6" value="..." title="auswählen: Ausprägungen zu Merkmal 'Jahr'">Zeit auswählen</button> is not clickable at point (759, 867). Other element would receive the click: <div class="cookiebanner" id="cookiebanner">...</div>
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00707621+1275425]
+	Ordinal0 [0x00705657+1267287]
+	Ordinal0 [0x0070333B+1258299]
+	Ordinal0 [0x0070207D+1253501]
+	Ordinal0 [0x006F7AB3+1211059]
+	Ordinal0 [0x0071B9EC+1358316]
+	Ordinal0 [0x006F7474+1209460]
+	Ordinal0 [0x0071BC04+1358852]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 24, in <module>
+    indicador.search(base.alemanhaurl, base.alemanha)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\src\robo.py", line 34, in search
+    self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, elements))).click()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 81, in click
+    self._execute(Command.CLICK_ELEMENT)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webelement.py", line 710, in _execute
+    return self._parent.execute(command, params)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.ElementClickInterceptedException: Message: element click intercepted: Element <button class="table-structure-select btn-flex-grid" style="padding-left:2.25rem" type="submit" name="auspraegungen$$$6" value="..." title="auswählen: Ausprägungen zu Merkmal 'Jahr'">Zeit auswählen</button> is not clickable at point (759, 867). Other element would receive the click: <div class="cookiebanner" id="cookiebanner">...</div>
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00707621+1275425]
+	Ordinal0 [0x00705657+1267287]
+	Ordinal0 [0x0070333B+1258299]
+	Ordinal0 [0x0070207D+1253501]
+	Ordinal0 [0x006F7AB3+1211059]
+	Ordinal0 [0x0071B9EC+1358316]
+	Ordinal0 [0x006F7474+1209460]
+	Ordinal0 [0x0071BC04+1358852]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-08 09:06:47 | ERROR: *** ERROR ***
+2022-04-08 09:06:47 | ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00700FD4+1249236]
+	Ordinal0 [0x007011CB+1249739]
+	Ordinal0 [0x0072D812+1431570]
+	Ordinal0 [0x0071BA34+1358388]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 24, in <module>
+    indicador.search(base.alemanhaurl, base.alemanha)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\src\robo.py", line 34, in search
+    self.wait.until(EC.element_to_be_clickable((By.CSS_SELECTOR, elements))).click()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x00700FD4+1249236]
+	Ordinal0 [0x007011CB+1249739]
+	Ordinal0 [0x0072D812+1431570]
+	Ordinal0 [0x0071BA34+1358388]
+	Ordinal0 [0x0072BAF2+1424114]
+	Ordinal0 [0x0071B806+1357830]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-08 09:17:02 | ERROR: *** ERROR ***
+2022-04-08 09:17:02 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 28, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:21:02 | ERROR: *** ERROR ***
+2022-04-08 09:21:02 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 28, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:22:39 | ERROR: *** ERROR ***
+2022-04-08 09:22:39 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 30, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 12, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:26:52 | ERROR: *** ERROR ***
+2022-04-08 09:26:52 | ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x006BC640+968256]
+	Ordinal0 [0x0071E259+1368665]
+	Ordinal0 [0x00721D86+1383814]
+	Ordinal0 [0x0071B9B3+1358259]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 27, in <module>
+    indicador.downloading()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\src\robo.py", line 84, in downloading
+    self.browser.close()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 938, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x006BC640+968256]
+	Ordinal0 [0x0071E259+1368665]
+	Ordinal0 [0x00721D86+1383814]
+	Ordinal0 [0x0071B9B3+1358259]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-08 09:28:16 | ERROR: *** ERROR ***
+2022-04-08 09:28:16 | ERROR: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x006BC640+968256]
+	Ordinal0 [0x0071E259+1368665]
+	Ordinal0 [0x00721D86+1383814]
+	Ordinal0 [0x0071B9B3+1358259]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 27, in <module>
+    indicador.downloading()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\src\robo.py", line 84, in downloading
+    self.browser.close()
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 938, in close
+    self.execute(Command.CLOSE)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchWindowException: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x00849943+2595139]
+	Ordinal0 [0x007DC9F1+2148849]
+	Ordinal0 [0x006D4528+1066280]
+	Ordinal0 [0x006BC640+968256]
+	Ordinal0 [0x0071E259+1368665]
+	Ordinal0 [0x00721D86+1383814]
+	Ordinal0 [0x0071B9B3+1358259]
+	Ordinal0 [0x006F6086+1204358]
+	Ordinal0 [0x006F6F96+1208214]
+	GetHandleVerifier [0x009EB232+1658114]
+	GetHandleVerifier [0x00AA312C+2411516]
+	GetHandleVerifier [0x008DF261+560433]
+	GetHandleVerifier [0x008DE366+556598]
+	Ordinal0 [0x007E286B+2173035]
+	Ordinal0 [0x007E75F8+2192888]
+	Ordinal0 [0x007E76E5+2193125]
+	Ordinal0 [0x007F11FC+2232828]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-08 09:41:30 | ERROR: *** ERROR ***
+2022-04-08 09:41:30 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 27, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:42:22 | ERROR: *** ERROR ***
+2022-04-08 09:42:22 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 27, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:43:21 | ERROR: *** ERROR ***
+2022-04-08 09:43:21 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 28, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:46:01 | ERROR: *** ERROR ***
+2022-04-08 09:46:01 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 29, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 12, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:47:13 | ERROR: *** ERROR ***
+2022-04-08 09:47:13 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 28, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 10, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-08 09:48:33 | ERROR: *** ERROR ***
+2022-04-08 09:48:33 | ERROR: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 30, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\main.py", line 12, in cleaner
+    df = pd.read_csv(file_path, sep=';', encoding='latin-1', skiprows=6, dtype=str)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1217, in _make_engine
+    self.handles = get_handle(  # type: ignore[call-overload]
+  File "C:\Users\elian\Desktop\Automatização Indice PETRO\venv\lib\site-packages\pandas\io\common.py", line 789, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: 'C:\\Users\\elian\\Desktop\\Automatização Indice PETRO\\downloads'
+2022-04-09 02:08:42 | ERROR: *** ERROR ***
+2022-04-09 02:08:42 | ERROR: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\tratados\Alemanha CPI'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 36, in <module>
+    cleaner(latest_file)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 22, in cleaner
+    df.to_excel(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\generic.py", line 2357, in to_excel
+    formatter.write(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\formats\excel.py", line 886, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_xlwt.py", line 46, in __init__
+    super().__init__(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_base.py", line 1106, in __init__
+    self.handles = get_handle(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 697, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 571, in check_parent_directory
+    raise OSError(fr"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\tratados\Alemanha CPI'
+2022-04-09 16:06:14 | ERROR: *** ERROR ***
+2022-04-09 16:06:14 | ERROR: 'list' object has no attribute 'startswith'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 26, in <module>
+    indicador.search(base.holandacpi, base.holandacpiurl)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 30, in search
+    if url.startswith("https://www-genesis"):
+AttributeError: 'list' object has no attribute 'startswith'
+2022-04-09 16:08:56 | ERROR: *** ERROR ***
+2022-04-09 16:08:56 | ERROR: 'utf-8' codec can't decode byte 0xe4 in position 60: invalid continuation byte
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 35, in <module>
+    cleaner("CPI")
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 13, in cleaner
+    df = pd.read_csv(latest_file, sep=";")
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 680, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 575, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 933, in __init__
+    self._engine = self._make_engine(f, self.engine)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\parsers\readers.py", line 1231, in _make_engine
+    return mapping[engine](f, **self.options)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\parsers\c_parser_wrapper.py", line 75, in __init__
+    self._reader = parsers.TextReader(src, **kwds)
+  File "pandas\_libs\parsers.pyx", line 544, in pandas._libs.parsers.TextReader.__cinit__
+  File "pandas\_libs\parsers.pyx", line 633, in pandas._libs.parsers.TextReader._get_header
+  File "pandas\_libs\parsers.pyx", line 847, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas\_libs\parsers.pyx", line 1952, in pandas._libs.parsers.raise_parser_error
+UnicodeDecodeError: 'utf-8' codec can't decode byte 0xe4 in position 60: invalid continuation byte
+2022-04-09 16:15:05 | ERROR: *** ERROR ***
+2022-04-09 16:15:05 | ERROR: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda CPI'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 35, in <module>
+    cleaner("CPI")
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 16, in cleaner
+    df.to_excel(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\generic.py", line 2357, in to_excel
+    formatter.write(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\formats\excel.py", line 886, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_xlwt.py", line 46, in __init__
+    super().__init__(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_base.py", line 1106, in __init__
+    self.handles = get_handle(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 697, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 571, in check_parent_directory
+    raise OSError(fr"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda CPI'
+2022-04-09 16:17:56 | ERROR: *** ERROR ***
+2022-04-09 16:17:56 | ERROR: 'bool' object has no attribute 'until'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 36, in <module>
+    indicador.search(url=base.holandappiurl, clicks=base.holandappi)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 89, in search
+    self.wait.until(
+AttributeError: 'bool' object has no attribute 'until'
+2022-04-09 16:21:45 | ERROR: *** ERROR ***
+2022-04-09 16:21:45 | ERROR: name 'time' is not defined
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 36, in <module>
+    cleaner("CPI")
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 10, in cleaner
+    time.sleep(5)
+NameError: name 'time' is not defined
+2022-04-09 16:22:36 | ERROR: *** ERROR ***
+2022-04-09 16:22:36 | ERROR: 'bool' object has no attribute 'until'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Holanda_PPI_CPI.py", line 38, in <module>
+    indicador.search(url=base.holandappiurl, clicks=base.holandappi)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 89, in search
+    self.wait.until(
+AttributeError: 'bool' object has no attribute 'until'
+2022-04-09 16:30:34 | ERROR: *** ERROR ***
+2022-04-09 16:30:34 | ERROR: "None of [Index(['Verbraucherpreisindex 2015=100'], dtype='object')] are in the [columns]"
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 36, in <module>
+    cleaner()
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 23, in cleaner
+    df = df[~(df[["Verbraucherpreisindex 2015=100"]] == "...").any(axis=1)]
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\frame.py", line 3511, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\indexes\base.py", line 5782, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\indexes\base.py", line 5842, in _raise_if_missing
+    raise KeyError(f"None of [{key}] are in the [{axis_name}]")
+KeyError: "None of [Index(['Verbraucherpreisindex 2015=100'], dtype='object')] are in the [columns]"
+2022-04-09 19:43:40 | ERROR: *** ERROR ***
+2022-04-09 19:43:40 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 36, in <module>
+    cleaner()
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Alemanha_CPI.py", line 11, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-10 18:24:12 | ERROR: *** ERROR ***
+2022-04-10 18:24:12 | ERROR: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\tratados\Austria HICP'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Austria.py", line 50, in <module>
+    cleaner()
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Austria.py", line 38, in cleaner
+    df.to_excel(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\core\generic.py", line 2357, in to_excel
+    formatter.write(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\formats\excel.py", line 886, in write
+    writer = ExcelWriter(  # type: ignore[abstract]
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_xlwt.py", line 46, in __init__
+    super().__init__(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_base.py", line 1106, in __init__
+    self.handles = get_handle(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 697, in get_handle
+    check_parent_directory(str(handle))
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\common.py", line 571, in check_parent_directory
+    raise OSError(fr"Cannot save file into a non-existent directory: '{parent}'")
+OSError: Cannot save file into a non-existent directory: 'C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\tratados\Austria HICP'
+2022-04-10 18:37:36 | INFO: Pasta \downloads\* removida
+2022-04-10 18:37:54 | INFO: Realizando o download de bad80903-7844-4251-af2d-8f08315f80dd.tmp
+2022-04-10 18:42:20 | INFO: Pasta \downloads\* removida
+2022-04-10 18:42:23 | INFO: Acessando o link https://www.oenb.at/isaweb/report.do;jsessionid=1120B8F1D833096ABDB3A68DAE8DA4B1?report=6.3 
+2022-04-10 18:42:38 | INFO: Realizando o download de 40bc6e9a-65d0-4b2e-bff9-64785148573e.tmp
+2022-04-10 18:42:48 | INFO: Realizando o tratamento de C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\downloads\CSV_Download_6_3.csv
+2022-04-10 18:42:49 | INFO: Finalizado a requisição do indicador Austria HICP
+2022-04-10 20:54:46 | INFO: Pasta \downloads\* removida
+2022-04-10 20:54:47 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-10 20:55:14 | INFO: Realizando o download de c91f56aa-f019-49b8-b372-1b52b8a334f2.tmp
+2022-04-10 20:55:24 | INFO: Realizado o download de c91f56aa-f019-49b8-b372-1b52b8a334f2.tmp
+2022-04-10 20:55:24 | INFO: Realizando o tratamento de nme_R031.5687.20220411085708.01.csv
+2022-04-10 20:55:34 | ERROR: *** ERROR ***
+2022-04-10 20:55:34 | ERROR: 'bool' object has no attribute 'until'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Japao.py", line 41, in <module>
+    indicador.search(base.japaocpiurl, base.japaocpi)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 99, in search
+    self.wait.until(
+AttributeError: 'bool' object has no attribute 'until'
+2022-04-10 20:57:49 | INFO: Pasta \downloads\* removida
+2022-04-10 20:57:50 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-10 20:58:16 | INFO: Realizando o download de f874a81b-c1e9-4a2c-a750-6e0a92751004.tmp
+2022-04-10 20:58:26 | INFO: Realizado o download de f874a81b-c1e9-4a2c-a750-6e0a92751004.tmp
+2022-04-10 20:58:26 | INFO: Realizando o tratamento de nme_R031.8751.20220411090011.01.csv
+2022-04-10 20:58:37 | INFO: Realizando o download de nme_R031.8751.20220411090011.01.csv
+2022-04-10 20:58:37 | INFO: Realizado o download de nme_R031.8751.20220411090011.01.csv
+2022-04-10 20:58:37 | INFO: Realizando o tratamento de nme_R031.8751.20220411090011.01.csv
+2022-04-10 20:58:37 | ERROR: *** ERROR ***
+2022-04-10 20:58:37 | ERROR: Excel file format cannot be determined, you must specify an engine manually.
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Japao.py", line 42, in <module>
+    cleaner("Japao CPI")
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Japao.py", line 14, in cleaner
+    df = pd.read_excel(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\util\_decorators.py", line 311, in wrapper
+    return func(*args, **kwargs)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_base.py", line 457, in read_excel
+    io = ExcelFile(io, storage_options=storage_options, engine=engine)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\pandas\io\excel\_base.py", line 1380, in __init__
+    raise ValueError(
+ValueError: Excel file format cannot be determined, you must specify an engine manually.
+2022-04-10 21:00:57 | INFO: Pasta \downloads\* removida
+2022-04-10 21:00:58 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-10 21:01:23 | INFO: Realizando o download de 5dfe2f73-e3ce-4e7c-a7a9-0faa887257ed.tmp
+2022-04-10 21:01:33 | INFO: Realizado o download de 5dfe2f73-e3ce-4e7c-a7a9-0faa887257ed.tmp
+2022-04-10 21:01:33 | INFO: Realizando o tratamento de nme_R031.523.20220411090318.02.csv
+2022-04-10 21:01:44 | INFO: Realizando o download de 912d8fb6-bde1-4e9b-985e-880c8a8923a1.tmp
+2022-04-10 21:01:54 | INFO: Realizado o download de 912d8fb6-bde1-4e9b-985e-880c8a8923a1.tmp
+2022-04-10 21:01:54 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-10 21:03:57 | INFO: Pasta \downloads\* removida
+2022-04-10 21:03:58 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-10 21:04:22 | INFO: Realizando o download de c4a213f9-b0ab-4fe6-be8a-9527e0ad936c.tmp
+2022-04-10 21:04:32 | INFO: Realizado o download de c4a213f9-b0ab-4fe6-be8a-9527e0ad936c.tmp
+2022-04-10 21:04:32 | INFO: Realizando o tratamento de nme_R031.3779.20220411090616.02.csv
+2022-04-10 21:04:32 | INFO: Finalizado a coleta do indicador Japao PPI
+2022-04-10 21:04:43 | INFO: Realizando o download de d5c97593-e6ec-465c-8e2d-392b8683d899.tmp
+2022-04-10 21:04:53 | INFO: Realizado o download de d5c97593-e6ec-465c-8e2d-392b8683d899.tmp
+2022-04-10 21:04:53 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-10 21:04:53 | INFO: Finalizado a coleta do indicador Japao CPI
+2022-04-10 21:14:48 | INFO: Pasta \downloads\* removida
+2022-04-10 21:14:49 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-10 21:15:12 | INFO: Realizando o download de 50f85610-6c56-471f-b252-cd57cd34722b.tmp
+2022-04-10 21:15:22 | INFO: Realizado o download de 50f85610-6c56-471f-b252-cd57cd34722b.tmp
+2022-04-10 21:15:22 | INFO: Realizando o tratamento de nme_R031.23173.20220411091707.01.csv
+2022-04-10 21:15:22 | INFO: Finalizado a coleta do indicador Japao PPI
+2022-04-10 21:15:32 | INFO: Realizando o download de f5d74764-5598-403b-86aa-05b8a7b8d66c.tmp
+2022-04-10 21:15:42 | INFO: Realizado o download de f5d74764-5598-403b-86aa-05b8a7b8d66c.tmp
+2022-04-10 21:15:42 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-10 21:15:43 | INFO: Finalizado a coleta do indicador Japao CPI
+2022-04-11 00:20:16 | INFO: Pasta \downloads\* removida
+2022-04-11 00:20:29 | INFO: Realizando o download de d3770513-7c21-406b-97d4-2f887802dc5f.tmp
+2022-04-11 00:20:39 | INFO: Realizado o download de d3770513-7c21-406b-97d4-2f887802dc5f.tmp
+2022-04-11 00:20:39 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-11 00:20:40 | INFO: Finalizado a coleta do indicador Japao CPI
+2022-04-11 00:20:40 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-11 00:20:50 | ERROR: *** ERROR ***
+2022-04-11 00:20:50 | ERROR: 'bool' object has no attribute 'until'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\Japao.py", line 44, in <module>
+    indicador.search(url, clicks)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 72, in search
+    self.wait.until(
+AttributeError: 'bool' object has no attribute 'until'
+2022-04-11 00:22:10 | INFO: Pasta \downloads\* removida
+2022-04-11 00:22:11 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-11 00:22:34 | INFO: Realizando o download de 06a68e23-0e1f-48ee-9653-5aed41927faf.tmp
+2022-04-11 00:22:44 | INFO: Realizado o download de 06a68e23-0e1f-48ee-9653-5aed41927faf.tmp
+2022-04-11 00:22:44 | INFO: Realizando o tratamento de nme_R031.1388.20220411122428.01.csv
+2022-04-11 00:22:44 | INFO: Finalizado a coleta do indicador Japao PPI
+2022-04-11 00:22:54 | INFO: Realizando o download de b9ee9b96-2a24-42dd-964b-d8b2d4f1c015.tmp
+2022-04-11 00:23:04 | INFO: Realizado o download de b9ee9b96-2a24-42dd-964b-d8b2d4f1c015.tmp
+2022-04-11 00:23:04 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-11 00:23:05 | INFO: Finalizado a coleta do indicador Japao CPI
+2022-04-11 00:40:01 | INFO: Pasta \downloads\* removida
+2022-04-11 00:40:02 | INFO: Acessando o link https://www.stat-search.boj.or.jp/ssi/cgi-bin/famecgi2?cgi=$nme_s050_en
+2022-04-11 00:40:24 | INFO: Realizando o download de d4cdd227-73be-4fd1-880c-833136d51fdb.tmp
+2022-04-11 00:40:34 | INFO: Realizado o download de d4cdd227-73be-4fd1-880c-833136d51fdb.tmp
+2022-04-11 00:40:34 | INFO: Realizando o tratamento de nme_R031.25472.20220411124219.02.csv
+2022-04-11 00:40:46 | INFO: Realizando o download de b701337b-3739-48f6-9ebb-0cb2567f61cb.tmp
+2022-04-11 00:40:56 | INFO: Realizado o download de b701337b-3739-48f6-9ebb-0cb2567f61cb.tmp
+2022-04-11 00:40:56 | INFO: Realizando o tratamento de am01-1.xlsx
+2022-04-11 00:40:56 | INFO: Finalizado a coleta do indicador Japao CPI
+2022-04-11 00:42:46 | INFO: Pasta \downloads\* removida
+2022-04-11 00:42:49 | INFO: Acessando o link https://www.oenb.at/isaweb/report.do;jsessionid=1120B8F1D833096ABDB3A68DAE8DA4B1?report=6.3 
+2022-04-11 00:48:51 | INFO: Pasta \downloads\* removida
+2022-04-11 00:48:55 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-11 00:49:14 | ERROR: *** ERROR ***
+2022-04-11 00:49:14 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 18, in __init__
+    self.cleaner(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 26, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-11 00:49:14 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83936ENG/table?ts=1562272187018
+2022-04-11 00:49:16 | ERROR: *** ERROR ***
+2022-04-11 00:49:16 | ERROR: 'bool' object has no attribute 'until'
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 17, in __init__
+    self.indicador.search(url, clicks)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 109, in search
+    self.wait.until(
+AttributeError: 'bool' object has no attribute 'until'
+2022-04-11 00:53:15 | INFO: Pasta \downloads\* removida
+2022-04-11 00:53:18 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-11 00:53:23 | ERROR: *** ERROR ***
+2022-04-11 00:53:23 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 18, in __init__
+    self.cleaner(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 26, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-11 00:53:23 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83936ENG/table?ts=1562272187018
+2022-04-11 00:53:33 | ERROR: *** ERROR ***
+2022-04-11 00:53:33 | ERROR: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 17, in __init__
+    self.indicador.search(url, clicks)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 108, in search
+    WebDriverWait(self.browser, 10).until(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\support\wait.py", line 89, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-11 00:58:18 | INFO: Pasta \downloads\* removida
+2022-04-11 00:58:21 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-11 00:58:40 | ERROR: *** ERROR ***
+2022-04-11 00:58:40 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 13, in __init__
+    self.cleaner(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 21, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-11 00:58:40 | INFO: Pasta \downloads\* removida
+2022-04-11 00:58:43 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83936ENG/table?ts=1562272187018
+2022-04-11 00:58:45 | ERROR: *** ERROR ***
+2022-04-11 00:58:45 | ERROR: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rows .pvtAttrEditHandle"}
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 12, in __init__
+    self.indicador = RoboPetro(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 23, in __init__
+    self.search(url, clicks)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 114, in search
+    self.browser.find_element(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rows .pvtAttrEditHandle"}
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-11 00:59:38 | INFO: Pasta \downloads\* removida
+2022-04-11 00:59:41 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-11 00:59:43 | ERROR: *** ERROR ***
+2022-04-11 00:59:43 | ERROR: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rows .pvtAttrEditHandle"}
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 12, in __init__
+    self.indicador = RoboPetro(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 23, in __init__
+    self.search(url, clicks)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\robo.py", line 114, in search
+    self.browser.find_element(
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 1248, in find_element
+    return self.execute(Command.FIND_ELEMENT, {
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\webdriver.py", line 425, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\venv\lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 247, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {"method":"css selector","selector":".rows .pvtAttrEditHandle"}
+  (Session info: chrome=100.0.4896.75)
+Stacktrace:
+Backtrace:
+	Ordinal0 [0x008C7413+2389011]
+	Ordinal0 [0x00859F61+1941345]
+	Ordinal0 [0x0074C658+837208]
+	Ordinal0 [0x007791DD+1020381]
+	Ordinal0 [0x0077949B+1021083]
+	Ordinal0 [0x007A6032+1204274]
+	Ordinal0 [0x00794194+1130900]
+	Ordinal0 [0x007A4302+1196802]
+	Ordinal0 [0x00793F66+1130342]
+	Ordinal0 [0x0076E546+976198]
+	Ordinal0 [0x0076F456+980054]
+	GetHandleVerifier [0x00A79632+1727522]
+	GetHandleVerifier [0x00B2BA4D+2457661]
+	GetHandleVerifier [0x0095EB81+569713]
+	GetHandleVerifier [0x0095DD76+566118]
+	Ordinal0 [0x00860B2B+1968939]
+	Ordinal0 [0x00865988+1989000]
+	Ordinal0 [0x00865A75+1989237]
+	Ordinal0 [0x0086ECB1+2026673]
+	BaseThreadInitThunk [0x779E6739+25]
+	RtlGetFullPathName_UEx [0x77B38E7F+1215]
+	RtlGetFullPathName_UEx [0x77B38E4D+1165]
+
+2022-04-11 01:00:20 | INFO: Pasta \downloads\* removida
+2022-04-11 01:00:24 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-11 01:00:42 | ERROR: *** ERROR ***
+2022-04-11 01:00:42 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 13, in __init__
+    self.cleaner(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 21, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-11 01:00:44 | INFO: Pasta \downloads\* removida
+2022-04-11 01:00:47 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83936ENG/table?ts=1562272187018
+2022-04-13 12:22:36 | INFO: Pasta \downloads\* removida
+2022-04-13 12:22:50 | INFO: Pasta \downloads\* removida
+2022-04-13 12:23:12 | INFO: Pasta \downloads\* removida
+2022-04-13 12:23:22 | INFO: Pasta \downloads\* removida
+2022-04-13 12:23:23 | INFO: Acessando o link https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0002&bypass=true&levelindex=0&levelid=1643287989266#abreadcrumb 
+2022-04-13 12:23:44 | ERROR: *** ERROR ***
+2022-04-13 12:23:44 | ERROR: max() arg is an empty sequence
+Traceback (most recent call last):
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 13, in __init__
+    self.cleaner(country)
+  File "C:\Users\elian\Desktop\Automatizacao_Indice_PETRO\src\tratamento.py", line 21, in cleaner
+    latest_file = max(list_of_files, key=os.path.getctime)
+ValueError: max() arg is an empty sequence
+2022-04-13 12:25:33 | INFO: Pasta \downloads\* removida
+2022-04-13 12:25:34 | INFO: Acessando o link https://www-genesis.destatis.de/genesis//online?operation=table&code=61111-0002&bypass=true&levelindex=0&levelid=1643287989266#abreadcrumb 
+2022-04-13 12:26:05 | INFO: Realizando o download de 61111-0002.csv
+2022-04-13 12:26:05 | INFO: Realizado o download de 61111-0002.csv
+2022-04-13 12:26:05 | INFO: Realizando o tratamento de 61111-0002.csv
+2022-04-13 12:26:05 | INFO: Finalizado a coleta do indicador Alemanha CPI
+2022-04-13 12:26:05 | INFO: Finalizado a coleta do indicador Alemanha CPI
+2022-04-13 12:28:12 | INFO: Pasta \downloads\* removida
+2022-04-13 12:28:17 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83131ENG/table?ts=1562269785328
+2022-04-13 12:28:27 | INFO: Realizando o download de CPI__price_index_2015_100_13042022_173027.csv
+2022-04-13 12:28:27 | INFO: Realizado o download de CPI__price_index_2015_100_13042022_173027.csv
+2022-04-13 12:28:27 | INFO: Realizando o tratamento de CPI__price_index_2015_100_13042022_173027.csv
+2022-04-13 12:28:28 | INFO: Finalizado a coleta do indicador Holanda CPI
+2022-04-13 12:28:28 | INFO: Finalizado a coleta do indicador Holanda CPI
+2022-04-13 12:28:30 | INFO: Pasta \downloads\* removida
+2022-04-13 12:28:33 | INFO: Acessando o link https://opendata.cbs.nl/statline/#/CBS/en/dataset/83936ENG/table?ts=1562272187018
+2022-04-13 12:28:44 | INFO: Realizando o download de Producer_Price_Index__SIC_2008__2015_100_13042022_173044.csv
+2022-04-13 12:28:44 | INFO: Realizado o download de Producer_Price_Index__SIC_2008__2015_100_13042022_173044.csv
+2022-04-13 12:28:44 | INFO: Realizando o tratamento de Producer_Price_Index__SIC_2008__2015_100_13042022_173044.csv
+2022-04-13 12:28:44 | INFO: Finalizado a coleta do indicador Holanda PPI
+2022-04-13 12:28:44 | INFO: Finalizado a coleta do indicador Holanda PPI
