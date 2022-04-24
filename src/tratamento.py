@@ -1,5 +1,6 @@
 from src.robo import RoboPetro
 from src.logger import logger
+from pathlib import Path
 import glob
 import os
 import pandas as pd
@@ -100,8 +101,10 @@ class Tratamento:
 
     @staticmethod
     def save(df, indicator):
+        path = os.getcwd() + "\\tratados\\" + indicator.upper()
+        Path(path).mkdir(parents=True, exist_ok=True)
         df.to_excel(
-            os.getcwd() + "\\tratados\\" + indicator.upper() + "\\" + indicator + ".xls",
+            path + "\\" + indicator + ".xls",
             sheet_name=indicator,
             index=False,
         )

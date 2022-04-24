@@ -5,6 +5,7 @@ from selenium.webdriver.support import expected_conditions as EC
 from fake_useragent import UserAgent
 from src.logger import logger
 from src.estrutura import Estrutura
+from pathlib import Path
 import time
 import os
 import glob
@@ -13,9 +14,11 @@ import glob
 class RoboPetro:
     def __init__(self, country):
         base = Estrutura()
+        directory = os.getcwd()+\\downloads
         self.remove("\\downloads\\*")
         self.chrome = "chromedriver.exe"
         self.path = os.getcwd() + "\\" + "downloads"
+        Path(self.path).mkdir(parents=True, exist_ok=True)
         self.browser = self.config_browser()
         self.wait = WebDriverWait(self.browser, 10)
         url = eval('base.' + country.lower().replace(" ", "") + 'url')
@@ -131,8 +134,11 @@ class RoboPetro:
 
     @staticmethod
     def remove(folder):
-        directory = os.getcwd()
-        files = glob.glob(directory + folder)
-        for f in files:
-            os.remove(f)
-        logger.info("Pasta {} removida".format(folder))
+        try:
+            directory = os.getcwd()
+            files = glob.glob(directory + folder)
+            for f in files:
+                os.remove(f)
+            logger.info("Pasta {} removida".format(folder))
+        else:
+            pass
